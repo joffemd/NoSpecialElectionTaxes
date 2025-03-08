@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #005a9e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Accordion styling */
+details {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+summary {
+    padding: 10px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #005a9e;
+    transition: background-color 0.3s;
+}
+
+summary:hover {
+    background-color: #d0d0d0;
+}
+
+details[open] summary {
+    background-color: #ccc;
+}
+
+details > p {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Table styling for Reason 1 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+/* Footer styling */
+footer {
+    background-color: #005a9e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
